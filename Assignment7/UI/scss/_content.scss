@@ -1,0 +1,108 @@
+.content{
+  height:900px;
+  overflow: auto;
+  padding-top: 5%;
+  color: white;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+.content ul{
+  //padding:0;
+  padding-top: 10px;
+  padding-left: 0px;
+  margin:0;
+}
+.item{
+  width:auto;
+  height: 45px;
+  min-height: 45px;
+  position: relative;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.fa-check-circle{
+  color:#6eb200;
+}
+.item p.text{
+  position: absolute;
+  padding:0;
+  margin:0;
+  font-size: 25px;
+  left:50px;
+  top:5px;
+  color: white;
+  max-width:285px;
+}
+.lineThrough{
+  text-decoration: line-through;
+  color : #ccc;
+}
+.item i.de{
+  position: absolute;
+  font-size: 25px;
+  right:15px;
+  top:10px;
+}
+.item i.de:hover{
+  color:#af0000;
+  cursor: pointer;
+}
+
+.fa-trash-o {
+  position: relative;
+  top:5px;
+  left: 94%;
+}
+
+.fa-circle-thin {
+  position: relative;
+  top:5px;
+  left: 10px;
+}
+
+.add-item{
+  position: relative;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+.add-item i{
+  position: absolute;
+  font-size: 30px;
+  color: #4162f6;
+}
+
+.add-item input{
+  position: absolute;
+  left: 40px  ;
+  height: 30px;
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding-left:10px;
+}
+.add-item input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
+.add-item input::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
+.add-item input:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
+.add-item input:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
