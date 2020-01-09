@@ -1,0 +1,7 @@
+//Using a for loop to generate sizes from 15 to 55 in multiple of 5
+@for $i from 3 through 11 {
+  $fontSize: 5*$i ;
+  .fontSize-#{$fontSize}{
+    font-size: #{$fontSize}px;
+  }
+}

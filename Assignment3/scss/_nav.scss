@@ -1,0 +1,65 @@
+//using position sticky to ensure the header is moving as we scroll down
+header{
+  z-index: 10;
+  position: sticky;
+  top:0;
+  padding-right: 10%;
+  padding-left: 10%;
+  height: 190px;
+  background-color: white;
+  font-size: 20px;
+  div{
+    color: $text-grey;
+    .welcome{
+      display: inline;
+      float: left;
+    }
+    .contact{
+      display: inline;
+      float: right;
+      span{
+        color: $brand-color;
+      }
+    }
+  }
+}
+
+hr{
+  clear: both;
+}
+
+nav{
+  p {
+    display: inline;
+    float: left;
+    font-size: 30px;
+  }
+  div {
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    a {
+      padding-right: 15px;
+      color: $text-grey;
+      text-decoration: none;
+    }
+    .pages {
+      color: $brand-color;
+    }
+    .center3{
+      display:inline-block;
+      padding-left: 30px;
+      padding-top: 10px;
+      font-size: 25px;
+      border-radius: 30px;
+      height: 40px;
+      width: 220px;
+      color: $body-color;
+      background-color: $brand-color  ;
+    }
+  }
+}
+
+.home {
+  clear: both;
+}

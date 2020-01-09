@@ -1,0 +1,16 @@
+//using mixin to set few repetative attributes
+@mixin setRowCol($row,$col) {
+  grid-column: $col;
+  grid-row: $row;
+}
+
+@mixin setWidthHeight($position, $height){
+  height: $height;
+  position: $position;
+}
+
+@mixin setHeightAndPadding($left, $right, $height){
+  padding-left: $left;
+  padding-right: $right;
+  height: $height;
+}
