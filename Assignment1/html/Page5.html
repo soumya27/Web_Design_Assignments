@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application for Social Security Card</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <header>
+        <h3>
+            SOCIAL SECURITY ADMINISTRATION
+        </h3>
+    </header>
+    <section>
+        <h4>
+            Application for a Social Security Card
+        </h4>
+        <hr>
+        <form>
+            <fieldset>
+                <label>1. Name
+                    <br>
+                    TO BE SHOWN ON CARD
+                </label>
+                <input type="text" name="first" placeholder="First Name" class="firstname">
+                <input type="text" name="FullMiddleName" placeholder="Full Middle Name">
+                <input type="text" name="last" placeholder="Last Name">
+                <br>
+                <label>
+                    FULL NAME AT BIRTH IF OTHER THAN ABOVE
+                </label>
+                <input type="text" name="first" placeholder="First Name" class="birthname">
+                <input type="text" name="FullMiddleName" placeholder="Full Middle Name">
+                <input type="text" name="last" placeholder="Last Name">
+                <br>
+                <label>
+                    OTHER NAMES USED
+                    <input type="text" name="other" class="othername" >
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    2. Social Security number previously assigned to the person listed in item 1
+                </label>
+                <br>
+                <!-- BOX FOR SSN-->
+                <input type="number" name="ssn-1" max="999" min="1" placeholder="XXX" > -
+                <input type="number" name="ssn-2" max="99" min="1" placeholder="XX"> -
+                <input type="number" name="ssn-3" max="9999" min="1" placeholder="XXXX" >
+            </fieldset>
+            <fieldset>
+                <label>3. PLACE OF BIRTH (Do not Abbreviate)</label>
+                <br>
+                <!-- TEXT INPUT-->
+                <input type="text" name="city" placeholder="City">
+                <input type="text" name="country" placeholder="State or Foreign Country" class="country">
+            </fieldset>
+            <fieldset>
+                <label>4. DATE OF BIRTH
+                    <br>
+                    <!-- DATE INPUT, adding a placeholder with expected format as a fallback
+                     as all broswers do not support date type-->
+                    <input type="date" name="birthday" placeholder="mm/dd/yyyy">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>5. CITIZENSHIP (Check one)</label>
+                <br>
+                <!--  RADIO INPUT -->
+                <input type="radio" name="citizenship" value="US"> U.S. Citizen
+                <input type="radio" name="citizenship" value="legalalien"> Legal Alien Allowed To Work
+                <br>
+                <input type="radio" name="citizenship" value="nonlegalalien"> Legal Alien Not Allowed To Work(See Instructions On Page 3)
+                <input type="radio" name="citizenship" value="other">Other (See Instructions On Page 3)
+            </fieldset>
+            <fieldset>
+                <label>6. ETHNICITY</label><br>
+                <label>Are You Hispanic or Latino? (Your Response is Voluntary)</label><br>
+                <!-- RADIO INPUT-->
+                <input type="radio" name="ethnicity" value="Yes"> Yes
+                <input type="radio" name="ethnicity" value="No"> No
+            </fieldset>
+            <fieldset>
+                <label>7. RACE</label><br>
+                <!-- CHECKBOX INPUT-->
+                <label>Select One or More (Your Response is Voluntary)</label><br>
+                <input type="checkbox" name="race" value="NativeHawaiian "> Native Hawaiian
+                <input type="checkbox" name="race" value="AlaskaNative "> Alaska Native
+                <input type="checkbox" name="race" value="Asian"> Asian
+                <input type="checkbox" name="race" value="AmericanIndian"> American Indian
+                <br>
+                <input type="checkbox" name="race" value="AfricanAmerican"> Black/African American
+                <input type="checkbox" name="race" value="PacificIslander"> Other Pacific Islander
+                <input type="checkbox" name="race" value="White"> White
+            </fieldset>
+            <fieldset>
+                <label>8. SEX</label><br>
+                <!-- RADIO INPUT-->
+                <input type="radio" name="sex" value="Male"> Male
+                <input type="radio" name="sex" value="Female"> Female
+            </fieldset>
+            <fieldset>
+                <label>9A.	PARENT/ MOTHER'S NAME AT HER BIRTH </label>
+                <input type="text" name="first" placeholder="First Name" class="mothername">
+                <input type="text" name="FullMiddleName" placeholder="Full Middle Name">
+                <input type="text" name="last" placeholder="Last Name">
+                <br>
+                <label>9B. PARENT/ MOTHER'S SOCIAL SECURITY NUMBER</label>
+                    <!-- BOX FOR SSN-->
+                    <input type="number" name="ssn-1" max="999" min="1" placeholder="XXX" class ="ssn" > -
+                    <input type="number" name="ssn-2" max="99" min="1" placeholder="XX" > -
+                    <input type="number" name="ssn-3" max="9999" min="1" placeholder="XXXX">
+                    <!-- CHECKBOX FOR UNKNOWN-->
+                    <input type="radio" name="unknown" value="unknow"> Unknown
+                <br>
+                <label> (See instruction for 9B on Page 3)</label>
+            </fieldset>
+            <fieldset>
+                <label>10A.	PARENT/ FATHER'S NAME AT HER BIRTH </label>
+                    <input type="text" name="first" placeholder="First Name" class="mothername">
+                    <input type="text" name="FullMiddleName" placeholder="Full Middle Name">
+                    <input type="text" name="last" placeholder="Last Name">
+                <br>
+                <label>10B. PARENT/ FATHER'S SOCIAL SECURITY NUMBER</label>
+                    <!-- BOX FOR SSN-->
+                    <input type="number" name="ssn-1"  max="999" min="1" placeholder="XXX" class ="ssn" > -
+                    <input type="number" name="ssn-2" max="99" min="1" placeholder="XX" > -
+                    <input type="number" name="ssn-3" max="9999" min="1" placeholder="XXXX" >
+                    <!-- CHECKBOX FOR UNKNOWN-->
+                    <input type="radio" name="unknown" value="unknown"> Unknown
+                <br>
+                <label> (See instruction for 10B on Page 3)</label>
+            </fieldset>
+            <fieldset>
+                <label>11. Has the person listed in item 1 or anyone acting on his/her behalf ever filed for or received a Social Security number card before?</label><br>
+                <!-- RADIO INPUT-->
+                <input type="radio" name="ssn" value="yes"> Yes (If "yes" answer questions 12-13)
+                <input type="radio" name="ssn" value="no"> No
+                <input type="radio" name="ssn" value="idk"> Don't Know (If "don't know," skip to question 14.)
+            </fieldset>
+            <fieldset>
+                <label>12. Name shown on the most recent Social Security card issued for the person listed in item 1</label><br>
+                <input type="text" name="first" placeholder="First Name">
+                <input type="text" name="FullMiddleName" placeholder="Full Middle Name">
+                <input type="text" name="last" placeholder="Last Name">
+            </fieldset>
+            <fieldset>
+                <label>13. Enter any different date of birth if used on an earlier application for a card
+                    <br>
+                    <!--DATE INPUT-->
+                    <input type="date" name="birthday" placeholder="mm/dd/yyyy">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>14. TODAY'S DATE
+                    <br>
+                    <!-- DATE INPUT -->
+                    <input type="date" name="today" placeholder="mm/dd/yyyy">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>15. DAYTIME PHONE NUMBER</label><br>
+                <!--number input-->
+                <input type="number" name="area-code" placeholder="Area code" >
+                <input type="number" name="number" placeholder="Number">
+            </fieldset>
+            <fieldset>
+                <label>16. MAILING ADDRESS (Do not Abbreviate)</label><br>
+                <!--address input-->
+                <input type="text" name="streetaddress" placeholder="Street Address, Apt. No., PO Box, Rural Route No." class="street">
+                <input type="text" name ="city" placeholder="city">
+                <input type="text" name="country" placeholder="State/Foreign Country">
+                <input type="number" name="zipcode" placeholder="ZIP code">
+            </fieldset>
+            <fieldset>
+                <label>17. YOUR SIGNATURE</label><br>
+                <p>I declare under penalty of perjury that I have examined all the information on this form, and on any accompanying statements or forms, and it is true and correct to the best to my knowledge</p>
+                <!--including a canvas element - to allow user to sign using mouse, would require JS visible functionality -->
+                <canvas width="400" height="100"></canvas>
+            </fieldset>
+            <fieldset>
+                <label>18. YOUR RELATIONSHIP TO THE PERSON IN ITEM 1 IS:</label><br>
+                <!--Radio input-->
+                <input type="radio" name="relation" value="self"> Self
+                <input type="radio" name="relation" value="parents"> Natural Or Adoptive Parent
+                <input type="radio" name="relation" value="guardian"> Legal Guardian
+                <input type="radio" name="relation" value="others"> Others
+                <input type="text" name="relation" placeholder="Other Specify">
+            </fieldset>
+        </form>
+    </section>
+    <hr>
+    <fieldset>
+        <label>DO NOT WRITE BELOW THIS LINE (FOR SSA USE ONLY)</label><br>
+        <input type="text" class="small" placeholder="NPN">
+        <input type="text" class="small" placeholder="DOC">
+        <input type="text" class="small" placeholder="NTI">
+        <input type="text" class="small" placeholder="CAN">
+        <input type="text" class="small" placeholder="ITV">
+        <br>
+        <input type="text" class="small" placeholder="PCB">
+        <input type="text" class="small" placeholder="EVI">
+        <input type="text" class="small" placeholder="EVA">
+        <input type="text" class="small" placeholder="EVC">
+        <input type="text" class="small" placeholder="PRA">
+        <input type="text" class="small" placeholder="NWR">
+        <input type="text" class="small" placeholder="DNR">
+        <input type="text" class="small" placeholder="UNIT">
+        <br>
+        <textarea placeholder="Evidence submitted"></textarea><br>
+        <label>SIGNATURE AND TITLE OF EMPLOYEE(S) REVIEWING EVIDENCE AND/OR CONDUCTING INTERVIEW</label><br>
+        <!--including a canvas element - to allow user to sign using mouse, would require JS for visible functionality -->
+        <br>
+        <input type="text" placeholder="Name">
+        <input type="date" class="offical" placeholder="mm/dd/yyyy">
+        <br>
+        <canvas width="400" height="100"></canvas>
+        <input type="date" class="offical" placeholder="mm/dd/yyyy">
+
+    </fieldset>
+    <hr>
+    <nav>
+        <a href="Page4.html">Previous</a>
+    </nav>
+
+</body>
+</html>

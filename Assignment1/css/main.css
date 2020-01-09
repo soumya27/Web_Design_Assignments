@@ -1,0 +1,89 @@
+body {
+    margin: 5% 10%;
+}
+hr {
+    width: 100%;
+}
+.signature{
+    margin: 21px 1px;
+    width: 20%;
+}
+#page3 {
+    list-style: none;
+    font-size: 13px;
+}
+
+#page3>li:before {
+    content: attr(seq) ". ";
+
+}
+
+li{
+    margin: 10px;
+    font-size: 13px;
+}
+
+fieldset {
+    margin: 5px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 13px;
+}
+
+.centerh4 {
+    text-align: center;
+
+}
+h3{
+    margin: 10px 1px;
+}
+
+div{
+    text-align: center;
+}
+
+.firstname {
+    margin-left: 165px;
+}
+.birthname{
+    margin-left: 31px;
+}
+.othername{
+    margin-left: 185px;
+}
+
+.country{
+    width: 200px;
+}
+
+.mothername{
+  margin-left: 90px;
+}
+
+.ssn{
+    margin-left: 46px;
+}
+
+.street{
+    width: 300px;
+}
+
+input, label, p{
+    font-size: 13px;
+}
+
+textarea{
+    width: 20%;
+    resize: none;
+}
+
+canvas {
+    display: block;
+    position: relative;
+    border: 1px solid;
+}
+
+.next{
+    float: right;
+}
