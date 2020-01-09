@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--including an external stylesheet placed in the style folder -->
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Mediumish</title>
+</head>
+<body>
+    <header>
+        <h1>Mediumish</h1>
+        <h4> the clean blog!</h4>
+    </header>
+    <nav>
+        <!-- will use the class to style the nav bar -->
+        <a href="#flex-container" class="current">All Posts</a>
+    </nav>
+    <!--Using the flex display for section we will arrange all the posts in a grid layout-->
+    <!-- where all the posts will with the article tag -->
+    <section class="flex-container">
+        <article class ="posts">
+            <h3>Markdown Syntax Guild </h3>
+            <p class ="desc">
+                This article offers a sample of basic Markdown syntax that can be used in
+                Hugo content files, also it shows whether basic HTML elements are decorated
+                with CSS in Hugo theme.
+            </p>
+            <p class="date">
+                Mar 11, 2019 - 3 min read
+                <!-- using alt attribute for case where image isn't available and for screen readers-->
+                <img src="images/bookmark.png" alt="bookmark image">
+            </p>
+        </article>
+        <article class ="posts">
+            <h3>Rich Content</h3>
+            <p class ="desc">
+                <!-- using span to style particular text in the paragraph-->
+                Hugo ships with several <span class="green">Built-in Shortcodes</span> for rich content, along with
+                a  <span class="green"> Privacy Config </span> and a set of Simple Shortcodes that enable static and no-JS
+                version of various social media embeds
+            </p>
+            <p class="date">
+                Mar 10, 2019 - 1 min read
+                <img src="images/bookmark.png" alt="bookmark image">
+            </p>
+        </article>
+        <article class ="posts">
+            <!--placeholder post - included new text and an image -->
+            <h3>Contributing to Hugo</h3>
+            <p class ="desc">
+                Hugo relies heavily on contributions from the open source community.
+                <br>
+                <img class="logo" src="images/hugo.jpeg" alt="hugo icon">
+            </p>
+            <p class="date">
+                Mar 9, 2019 - 2 min read
+                <img src="images/bookmark.png" alt="bookmark image">
+            </p>
+        </article>
+        <article class ="posts">
+            <h3>Math Typesetting</h3>
+            <p class ="desc">
+                Mathematical notation in a Hugo project can be enabled by using third party
+                JavaScript libraries.
+            </p>
+            <p class="date">
+                Mar 8, 2019 - 1 min read
+                <img src="images/bookmark.png" alt="bookmark image">
+            </p>
+        </article>
+        <article class ="posts">
+            <h3>Emoji Support</h3>
+            <p class ="desc">
+                Emoji can be enabled in a Hugo project in a number of ways.
+            </p>
+            <p class="date">
+                Mar 7, 2019 - 4 min read
+                <img src="images/bookmark.png" alt="bookmark image">
+            </p>
+        </article>
+    </section>
+</body>
+</html>

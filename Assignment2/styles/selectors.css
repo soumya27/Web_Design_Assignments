@@ -1,0 +1,14 @@
+nav {
+    margin-left: 12px;
+    width: 85%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+/*text-decoration removes the underline from the anchor*/
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+header {
+     margin-left: 15px;
+}

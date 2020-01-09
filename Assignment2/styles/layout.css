@@ -1,0 +1,64 @@
+body {
+    margin: 5% 10%;
+}
+
+/*using flex to display posts in a grid like layput*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+/*using  border radius to round the borders */
+.posts{
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 8px;
+    margin: 15px 10px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+/*using position to place the date at the bottom of the post */
+.date {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    font-size: 16px;
+}
+
+h3 {
+    margin: 6%;
+}
+
+p {
+     margin: 6%;
+     color: gray;
+     font-size: 20px;
+     opacity: 0.7;
+}
+
+img {
+    position: relative;
+    top:11px;
+    width: 20px;
+    height: 24px
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    height: 24px;
+    width: 95px;
+}
+
+.current {
+    border-bottom: 1px solid black;
+}

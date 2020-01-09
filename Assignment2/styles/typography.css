@@ -1,0 +1,23 @@
+body {
+    font-family:"Segoe UI", "Helvetica Neue", "HelveticaNeue", Helvetica, "Lucida Sans Unicode", Arial, Sans-serif;
+}
+/*using a different font for the header*/
+header {
+    font-family: FreeMono, monospace;
+}
+h1 {
+
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.green {
+    color: #339933;
+}
