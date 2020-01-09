@@ -1,0 +1,240 @@
+[
+  {
+    "name": "binarySearch",
+    "filePath": "src/BinarySearch.js",
+    "lines": [
+      {
+        "lineNumber": 9,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 10,
+        "line": "* @param {list} array : Sorted integer list"
+      },
+      {
+        "lineNumber": 11,
+        "line": "* @param {number} number : Element we are trying to find"
+      },
+      {
+        "lineNumber": 12,
+        "line": "* @param {number} left : start index"
+      },
+      {
+        "lineNumber": 13,
+        "line": "* @param {number} right: end index"
+      },
+      {
+        "lineNumber": 14,
+        "line": "*"
+      },
+      {
+        "lineNumber": 15,
+        "line": "* @desc binarySearch is an recursive function where we are searching for a number in the array list"
+      },
+      {
+        "lineNumber": 16,
+        "line": "*"
+      },
+      {
+        "lineNumber": 17,
+        "line": "* @return {boolean} true if we find the element else false"
+      },
+      {
+        "lineNumber": 18,
+        "line": "*/"
+      },
+      {
+        "lineNumber": 19,
+        "line": "const binarySearch = function (array ,number, left ,right) {"
+      }
+    ],
+    "codeParams": [
+      "array",
+      "number",
+      "left",
+      "right"
+    ],
+    "docParams": [
+      "array",
+      "number",
+      "left",
+      "right:"
+    ]
+  },
+  {
+    "name": "swap",
+    "filePath": "src/QuickSort.js",
+    "lines": [
+      {
+        "lineNumber": 0,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 1,
+        "line": "* @param {number[]} array : list of numbers"
+      },
+      {
+        "lineNumber": 2,
+        "line": "* @param {number} left : start index"
+      },
+      {
+        "lineNumber": 3,
+        "line": "* @param {number} right: end index"
+      },
+      {
+        "lineNumber": 4,
+        "line": "*"
+      },
+      {
+        "lineNumber": 5,
+        "line": "* @desc method swaps two numbers at the index left and right in the list array"
+      },
+      {
+        "lineNumber": 6,
+        "line": "*"
+      },
+      {
+        "lineNumber": 7,
+        "line": "*/"
+      },
+      {
+        "lineNumber": 8,
+        "line": "function swap(array, left, right){"
+      }
+    ],
+    "codeParams": [
+      "array",
+      "left",
+      "right"
+    ],
+    "docParams": [
+      "array",
+      "left",
+      "right:"
+    ]
+  },
+  {
+    "name": "parition",
+    "filePath": "src/QuickSort.js",
+    "lines": [
+      {
+        "lineNumber": 15,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 16,
+        "line": "* @param {number[]} array : list of numbers"
+      },
+      {
+        "lineNumber": 17,
+        "line": "* @param {number} left : start index"
+      },
+      {
+        "lineNumber": 18,
+        "line": "* @param {number} right: end index"
+      },
+      {
+        "lineNumber": 19,
+        "line": "*"
+      },
+      {
+        "lineNumber": 20,
+        "line": "* @desc method picks a pivot, traverses the array and swaps elements such that"
+      },
+      {
+        "lineNumber": 21,
+        "line": "* everything left to the pivot is smaller than pivot and"
+      },
+      {
+        "lineNumber": 22,
+        "line": "* everything right to the pivot is larger than pivot"
+      },
+      {
+        "lineNumber": 23,
+        "line": "*"
+      },
+      {
+        "lineNumber": 24,
+        "line": "* @return {start} index"
+      },
+      {
+        "lineNumber": 25,
+        "line": "*/"
+      },
+      {
+        "lineNumber": 26,
+        "line": "function parition(array,left,right){"
+      }
+    ],
+    "codeParams": [
+      "array",
+      "left",
+      "right"
+    ],
+    "docParams": [
+      "array",
+      "left",
+      "right:"
+    ]
+  },
+  {
+    "name": "quickSort",
+    "filePath": "src/QuickSort.js",
+    "lines": [
+      {
+        "lineNumber": 45,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 46,
+        "line": "* @param {number[]} array : list of numbers"
+      },
+      {
+        "lineNumber": 47,
+        "line": "* @param {number} left : start index"
+      },
+      {
+        "lineNumber": 48,
+        "line": "* @param {number} right: end index"
+      },
+      {
+        "lineNumber": 49,
+        "line": "*"
+      },
+      {
+        "lineNumber": 50,
+        "line": "* @desc this is a recursive quicksort call, which divides and sorts each parition of"
+      },
+      {
+        "lineNumber": 51,
+        "line": "* the array"
+      },
+      {
+        "lineNumber": 52,
+        "line": "*"
+      },
+      {
+        "lineNumber": 53,
+        "line": "* @return {number[]} array"
+      },
+      {
+        "lineNumber": 54,
+        "line": "*/"
+      },
+      {
+        "lineNumber": 55,
+        "line": "function quickSort(array ,left, right){"
+      }
+    ],
+    "codeParams": [
+      "array",
+      "left",
+      "right"
+    ],
+    "docParams": [
+      "array",
+      "left",
+      "right:"
+    ]
+  }
+]
