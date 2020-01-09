@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import "./../../scss/variable.scss";
+nav{
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+
+  .addnew {
+    box-shadow: $buttonShadow;
+    background: $baseColor;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:$white;
+    font-family: Arial, serif;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    text-shadow:$buttontextshadow;
+  }
+  .addnew:hover {
+    background:$highlight;
+  }
+  .addnew:active {
+    position:relative;
+    top:1px;
+  }
+
+  button:focus {outline:0;}
+}

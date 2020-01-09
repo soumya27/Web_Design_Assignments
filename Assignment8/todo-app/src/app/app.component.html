@@ -1,0 +1,3 @@
+<app-nav-bar [todoAreaComponent]="todoArea" (newTodoEmitted)="addTodo($event)"></app-nav-bar>
+<app-todo-area #todoArea [todoChild]="todoParent"></app-todo-area>
+<router-outlet></router-outlet>

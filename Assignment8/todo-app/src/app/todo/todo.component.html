@@ -1,0 +1,20 @@
+<div id="{{'todo-' + todo.id}}" [class.todo]="classObject.todo" >
+  <div class="todo-list">
+    <input type="checkbox" class="done" *ngIf="todo.status"  (click) = "updateStatus(todo)" checked>
+    <input type="checkbox" class="done" *ngIf="!todo.status" (click) = "updateStatus(todo)">
+    <input type="text" class="todo-title" [attr.name]="todo.title" [(ngModel)]="todo.title">
+    <button class="show" (click)="updateValue()">{{sign}}</button>
+  </div>
+  <div class="date-selection" *ngIf="show">
+    <label class="date-label">Due Date
+      <input type="input" class="todo-duedate" placeholder="enter due date" [value] ="todo.dueDate | date:'short'" (input)="todo.dueDate=$event.target.value">
+    </label>
+  </div>
+  <textarea type="text" *ngIf="show" class="todo-description" [value]="todo.description" (input)="todo.description=$event.target.value"></textarea>
+  <div class="todo-selection" *ngIf="show">
+    <button class="update" (click)="updateTodo(todo)">Update</button>
+    <button *ngIf="!todo.status" class="completed" (click) = "updateStatus(todo)">Completed</button>
+    <button *ngIf="todo.status" class="incomplete" (click) = "updateStatus(todo)">Incomplete</button>
+    <button class="delete" (click)="deleteTodo(todo)">Delete</button>
+  </div>
+</div>

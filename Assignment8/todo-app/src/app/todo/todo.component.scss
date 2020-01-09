@@ -1,0 +1,90 @@
+@import "./../../scss/variable.scss";
+
+
+.todo {
+  margin:10px;
+
+  .todo-list{
+    display: flex;
+    align-items: center;
+    .done{
+      height: 25px;
+      width: 25px;
+      background-color: #eee;
+    }
+  }
+  .todo-title {
+    box-shadow: $titleShadow;
+    background: $baseColor;
+    font-family: $titleFont;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: $white;
+    height: 35px;
+    width: 80%;
+  }
+  .date-selection{
+
+    display: inline;
+    background-color: $white;
+    width: 80%;
+    .date-label{
+      margin: 5px 30px;
+      background-color: $white;
+      float: left;
+      width: 80%;
+      padding: 5px;
+    }
+    height: 35px;
+
+  }
+  .todo-selection{
+    margin: 5px 30px;
+  }
+
+  .show{
+    height: 40px;
+    width: 40px;
+    font-size: larger;
+    margin-left: 3px;
+  }
+
+  button {
+    margin: 1px;
+    box-shadow: $buttonShadow;
+    background: $baseColor;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:$white;
+    font-family: Arial, serif;
+    font-size:15px;
+    font-weight:bold;
+    padding:5px 10px;
+    text-decoration:none;
+    text-shadow:$buttontextshadow;
+  }
+  button:hover {
+    background: $highlight;
+  }
+  button:active {
+    position:relative;
+    top:1px;
+  }
+
+  button:focus {outline:0;}
+
+  .todo-description {
+    margin: 5px 30px;
+    font-family: 'Lato', serif;
+    font-size:  16px;
+    font-weight: 400;
+    text-align: left;
+    background-color: $white;
+    height: 100px;
+    width: 80.5%;
+    border: none;
+  }
+
+}
