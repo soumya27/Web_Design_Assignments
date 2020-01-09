@@ -1,0 +1,1028 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/applyStyle.js",
+    "content": "export let event = function(event){\n    /** @type {String} command */\n    let command = event.currentTarget.name;\n    /** @type {Object} selection\n     * @type {Object} range\n     * @type {Node} node\n     * @type {String} text\n     * @type {String} parentNodeCL\n     * @type {String} focusNodeCL\n     * */\n    let selection, range, node, text;\n    let parentNodeCL, focusNodeCL;\n\n    selection = window.getSelection();\n    if (selection && selection.anchorNode!== null) {\n        parentNodeCL = selection.anchorNode.parentNode.classList;\n        focusNodeCL=  selection.focusNode.parentNode.classList;\n        range = selection.getRangeAt(0);\n        text =selection.toString();\n        /** @type {DocumentFragment} extractContents */\n        let extractContents =range.extractContents();\n        console.log(\"Extracted Content  : \"+ extractContents.childNodes);\n        if((focusNodeCL.value).includes(command) && (parentNodeCL.value).includes(command)){\n            /** @type {NodeList} childNode */\n            let childNode = extractContents.childNodes;\n            console.log(\"Child Node when class is same : \"+ childNode);\n            childNode.forEach(node => {\n                if (node.data !== \"\") {\n                    if (typeof node.classList === \"undefined\") {\n                        node = selection.focusNode.parentNode;\n                    }\n                    node.classList.remove(command);\n                    if (node.classList.value === \"\") {\n                        /** @type {Element} textNode */\n                        let textNode = textNode.createTextNode(node.innerText);\n                        node.replaceWith(textNode);\n                    }\n                }\n            });\n            range.insertNode(extractContents);\n        }\n        else {\n            /** @type {Boolean} notText */\n            let notText = false;\n            // loop through to understand if all text nodes\n            extractContents.childNodes.forEach(node =>{\n                console.log(node);\n                if(node.nodeName === \"SPAN\" && node.classList.value === `${command}`){ // if style is exactly same  - then remove span make it text\n                    /** @type {Text} childNode */\n                    let textNode = document.createTextNode(node.innerText);\n                    node.replaceWith(textNode);\n                }\n                else if(node.nodeType !== 3 || selection.anchorNode.parentNode.nodeName === \"SPAN\")\n                    notText = true;\n            });\n            if(notText){ // if all is not text, we need spans for all childnodes\n                extractContents.childNodes.forEach(node => {\n                    if (node.data !== \"\" || node.data !== \" \") {\n                        if(selection.anchorNode.parentNode.nodeName === \"SPAN\")\n                        { // if the node is span\n                            selection.anchorNode.parentNode.classList.add(`${command}`);\n                        }\n                        else if(typeof node.classList !== \"undefined\" && node.classList.value !== \"\"){\n                            node.classList.add(`${command}`);\n                        }\n                        else {\n                            /** @type {Element} wrapper */\n                            let wrapper = document.createElement('span');\n                            wrapper.setAttribute(\"class\", `${command}`);\n                            wrapper.innerText = node.data;\n                            node.replaceWith(wrapper);\n                        }\n                    }\n                    else{\n                        node.remove();\n                    }\n                });\n                range.insertNode(extractContents);\n            }\n            else { // if all is text - then wrap it under one span and apply style\n                /** @type {Element} wrapper */\n                let wrapper = document.createElement('span');\n                wrapper.setAttribute(\"class\", `${command}`);\n                wrapper.innerText = text;\n                extractContents.childNodes.forEach(node =>{\n                    node = wrapper;\n                    range.insertNode(node);\n                });\n            }\n\n        }\n    }\n\n    let deleteRogue = function () {\n        /** @type {NodeList} spanElements */\n        let spanElements = document.getElementsByTagName(\"span\");\n        for(let i=0 ; i <spanElements.length; i++){\n            if(spanElements[i].innerText ===\"\")\n                spanElements[i].remove();\n        }\n    };\n    deleteRogue();\n};",
+    "static": true,
+    "longname": "/Users/soumya/Documents/WebDesign_INFO6150/assignment-6-cherukupallis/src/applyStyle.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "event",
+    "memberof": "src/applyStyle.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/applyStyle.js~event",
+    "access": "public",
+    "export": true,
+    "importPath": "Soumya_Assignment_6/src/applyStyle.js",
+    "importStyle": "{event}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "event",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/createButtonElements.js",
+    "content": "export let createButton = (value,icon,parent) => {\n    /** @type {Element} button */\n    let button = document.createElement('button');\n    button.setAttribute('class', `${value}`);\n    button.setAttribute('name', `${value}`);\n    button.innerHTML = `<i class = \"fa ${icon}\"></i>`;\n    parent.appendChild(button);\n    return button;\n};",
+    "static": true,
+    "longname": "/Users/soumya/Documents/WebDesign_INFO6150/assignment-6-cherukupallis/src/createButtonElements.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "createButton",
+    "memberof": "src/createButtonElements.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/createButtonElements.js~createButton",
+    "access": "public",
+    "export": true,
+    "importPath": "Soumya_Assignment_6/src/createButtonElements.js",
+    "importStyle": "{createButton}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "value",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "icon",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "parent",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/createDivElements.js",
+    "content": "export let createDiv = (value, parent)=>{\n    let div = document.createElement('div');\n    div.setAttribute('class',`${value}`);\n    parent.appendChild(div);\n    return div;\n};\n",
+    "static": true,
+    "longname": "/Users/soumya/Documents/WebDesign_INFO6150/assignment-6-cherukupallis/src/createDivElements.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "createDiv",
+    "memberof": "src/createDivElements.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/createDivElements.js~createDiv",
+    "access": "public",
+    "export": true,
+    "importPath": "Soumya_Assignment_6/src/createDivElements.js",
+    "importStyle": "{createDiv}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "value",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "parent",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/deleteRogueElements.js",
+    "content": "export let deleteRogue = function () {\n    let spanElements = document.getElementsByTagName(\"span\");\n    for(let i=0 ; i <spanElements.length; i++){\n        if(spanElements[i].innerText ===\"\")\n            spanElements[i].remove();\n    }\n}",
+    "static": true,
+    "longname": "/Users/soumya/Documents/WebDesign_INFO6150/assignment-6-cherukupallis/src/deleteRogueElements.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "deleteRogue",
+    "memberof": "src/deleteRogueElements.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/deleteRogueElements.js~deleteRogue",
+    "access": "public",
+    "export": true,
+    "importPath": "Soumya_Assignment_6/src/deleteRogueElements.js",
+    "importStyle": "{deleteRogue}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "src/main.js",
+    "content": "import './../scss/main.scss';\nimport {createDiv} from \"./createDivElements.js\";\nimport {createButton} from \"./createButtonElements.js\";\nimport {event} from \"./applyStyle\";\nimport {textSelection} from \"./textSelection\";\n\nlet body = document.getElementsByTagName('body').item(0);\n\nlet toolbar = createDiv(\"toolbar\",body);\nlet mainFrame = createDiv(\"textEditor\",body);\nlet pre = createDiv(\"pre\",body);\nlet boldButton = createButton('bold',\"fa-bold fa-2x\",toolbar);\nlet italicButton = createButton('italic',\"fa-italic fa-2x\",toolbar);\nlet underlineButton = createButton('underline', 'fa-underline fa-2x', toolbar);\nlet leftAlign = createButton('leftalign','fa-align-left fa-2x',toolbar);\nlet centerAlign = createButton('centeralign','fa-align-justify fa-2x',toolbar);\nlet rightAlign = createButton('rightalign','fa-align-right fa-2x',toolbar);\n\nmainFrame.setAttribute('contenteditable', true);\ntoolbar.setAttribute('contenteditable', false);\n\nlet buttons = document.querySelectorAll('[name]');\nbuttons.forEach(button =>{\n    button.addEventListener('click',event);\n});\n\ndocument.addEventListener(\"click\",textSelection);",
+    "static": true,
+    "longname": "/Users/soumya/Documents/WebDesign_INFO6150/assignment-6-cherukupallis/src/main.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "body",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~body",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "toolbar",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~toolbar",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "name": "mainFrame",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~mainFrame",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "variable",
+    "name": "pre",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~pre",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "boldButton",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~boldButton",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "italicButton",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~italicButton",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "variable",
+    "name": "underlineButton",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~underlineButton",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "variable",
+    "name": "leftAlign",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~leftAlign",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "centerAlign",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~centerAlign",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "variable",
+    "name": "rightAlign",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~rightAlign",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 67,
+    "kind": "variable",
+    "name": "buttons",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~buttons",
+    "access": "public",
+    "export": false,
+    "importPath": "Soumya_Assignment_6/src/main.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "src/textSelection.js",
+    "content": "export let textSelection = function (event) {\n    let values = event.target.classList.values();\n    let buttonList = [\"bold\",\"italic\",\"underline\",\"centeralign\",\"rightalign\",\"leftalign\"];\n    let selection = document.getSelection();\n    if(selection.toString()!==\"\"){\n           for( let value of values){\n                buttonList.forEach(button => {\n                    if (value === button) {\n                        let selectedButton = document.getElementsByName(button).item(0);\n                        selectedButton.classList.add(\"active\");\n                    }\n                });\n           }\n    }\n    else {\n        buttonList.forEach(button => {\n            let selectedButton = document.getElementsByName(button).item(0);\n            selectedButton.classList.remove(\"active\");\n        });\n    }\n}",
+    "static": true,
+    "longname": "/Users/soumya/Documents/WebDesign_INFO6150/assignment-6-cherukupallis/src/textSelection.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "textSelection",
+    "memberof": "src/textSelection.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/textSelection.js~textSelection",
+    "access": "public",
+    "export": true,
+    "importPath": "Soumya_Assignment_6/src/textSelection.js",
+    "importStyle": "{textSelection}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "event",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "kind": "index",
+    "content": "# assignment-6-cherukupallis\n\nThis assignment we are developing a TextEditor with ability to apply selected styles to the text.\n\nImplemented styles  \n* Bold\n* Italic\n* Underline \n* Right aligned\n* Left aligned \n* Justified \n\nUsing the Selection API - we fetch the user selected text from the textEditor. \n\nUsing the Event Listeners on the buttons on the toolbar - we apply the relevant styles to the text \n\nUsing SCSS to style the html page, using concepts like nesting and variables in this assignment. \n\n\n## Installation\n1. Clone the repository `git clone git@github.com:neu-mis-info6150-fall-2019/assignment-6-cherukupallis.git`.\n2. Navigate to project directory `cd assignment-6-cherukupallis`.\n3. Run `npm install`.\n\n## Build\nDefault build mode is `production`. This will build `index.html `, `main.js` and `main.css` files in the `dist` directory.\n1. To build the app, run `npm run build`.\n2. Launch the app by opening the file `./dist/index.html` in a browser.\n\n## Development Server\nFollow below steps to launch the app using `webpack-dev-server`.\n1. Run `npm start` or `npm run start`.\n2. This will open the app on a browser window.\n\n### Author\n* **Soumya Cherukupalli** - *NU001053800*  \n\n## License\n[MIT License](https://opensource.org/licenses/MIT)\n",
+    "longname": "/Users/soumya/Documents/WebDesign_INFO6150/assignment-6-cherukupallis/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"Soumya_Assignment_6\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Website for Cleaning Company\",\n  \"private\": true,\n  \"main\": \"main.js\",\n  \"scripts\": {\n    \"build\": \"webpack\",\n    \"start\": \"webpack-dev-server --open\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/neu-mis-info6150-fall-2019/assignment-6-cherukupallis.git\"\n  },\n  \"keywords\": [\n    \"SCSS\",\n    \"Webpack\",\n    \"Template\"\n  ],\n  \"author\": \"Soumya Cherukupalli\",\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/neu-mis-info6150-fall-2019/assignment-6-cherukupallis/issues\"\n  },\n  \"homepage\": \"https://github.com/neu-mis-info6150-fall-2019/assignment-6-cherukupallis#readme\",\n  \"devDependencies\": {\n    \"clean-webpack-plugin\": \"1.0.1\",\n    \"css-loader\": \"2.1.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"extract-text-webpack-plugin\": \"3.0.2\",\n    \"html-webpack-plugin\": \"3.2.0\",\n    \"mini-css-extract-plugin\": \"0.5.0\",\n    \"node-sass\": \"4.11.0\",\n    \"sass-loader\": \"7.1.0\",\n    \"webpack\": \"4.29.0\",\n    \"webpack-cli\": \"3.2.1\",\n    \"webpack-dev-server\": \"3.1.14\"\n  },\n  \"dependencies\": {\n    \"file-loader\": \"^4.2.0\",\n    \"url-loader\": \"^2.1.0\"\n  }\n}\n",
+    "longname": "/Users/soumya/Documents/WebDesign_INFO6150/assignment-6-cherukupallis/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
